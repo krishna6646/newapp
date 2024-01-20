@@ -1,0 +1,360 @@
+/* Application Shell Styles */
+
+/* Base */
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    /* Default w/h to percentage units for desktop and mobile browsers */
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: UberMove, UberMoveText, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 0.875em;
+    /* Remove after CSS file deprecation */
+    line-height: 1.71429;
+    /* Remove after CSS file deprecation */
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (device-width: 100vw) and (device-height: 100vh) {
+
+    html,
+    body {
+        /* Use viewport units for mobile fullscreen and webview */
+        width: 100vw;
+        height: 100vh;
+    }
+}
+
+/* Root DOM node */
+
+#root {
+    width: 100%;
+    height: 100%;
+}
+
+/* Fixes height for iOS devices */
+@supports (-webkit-touch-callout: none) {
+    #root {
+        min-height: -webkit-fill-available;
+    }
+}
+
+.ae {
+    display: block
+}
+
+.af {
+    width: 100%
+}
+
+.ag {
+    height: 100%
+}
+
+
+
+.ai {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex
+}
+
+.aj {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column
+}
+
+.ak {
+    -webkit-box-lines: nowrap;
+    flex-wrap: nowrap
+}
+
+.al {
+    overflow-y: auto
+}
+
+.am {
+    position: relative
+}
+
+.an {
+    box-sizing: border-box
+}
+
+.ao {
+    position: absolute
+}
+
+.ap {
+    top: -10000px
+}
+
+.aq {
+    left: -10000px
+}
+
+.ar {
+    -webkit-box-align: center;
+    align-items: center
+}
+
+.as {
+    -webkit-box-pack: center;
+    justify-content: center
+}
+
+.at {
+    background-color: #FFFFFF
+}
+
+.au {
+    animation-name: ae
+}
+
+.av {
+    animation-duration: 1000ms
+}
+
+.aw {
+    animation-iteration-count: infinite
+}
+
+.ax {
+    animation-timing-function: linear
+}
+
+.ay {
+    border-left-style: solid
+}
+
+.az {
+    border-right-style: solid
+}
+
+.b0 {
+    border-top-style: solid
+}
+
+.b1 {
+    border-bottom-style: solid
+}
+
+.b2 {
+    border-radius: 50%
+}
+
+.b3 {
+    border-top-color: #276EF1
+}
+
+.b4 {
+    border-right-color: #EEEEEE
+}
+
+.b5 {
+    border-bottom-color: #EEEEEE
+}
+
+.b6 {
+    border-left-color: #EEEEEE
+}
+
+.b7 {
+    border-left-width: NaNpx
+}
+
+.b8 {
+    border-right-width: NaNpx
+}
+
+.b9 {
+    border-top-width: NaNpx
+}
+
+.ba {
+    border-bottom-width: NaNpx
+}
+
+.bb {
+    width: 64px
+}
+
+.bc {
+    height: 64px
+}
+
+.bd {
+    cursor: wait
+}
+
+@font-face {
+    font-family: "UberMove";
+    font-display: fallback;
+   
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "UberMove";
+    font-display: fallback;
+  
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "UberMove";
+    font-display: fallback;
+    
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "UberMove";
+    font-display: fallback;
+ 
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "UberMoveMono";
+    font-display: fallback;
+   
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "UberMoveMono";
+
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "UberMoveText";
+    font-display: fallback;
+    
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "UberMoveText";
+    font-display: fallback;
+  
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "UberMoveText";
+    font-display: fallback;
+   
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "UberMoveText";
+    font-display: fallback;
+    font-weight: 600;
+}
+.ae.af.ag.ah{
+    border: 1px solid black; 
+    margin: auto;
+    width: 30%;
+    position: absolute;
+    height: 70%;
+    left: 35%;
+    top: 15%;
+    
+}
+.d7.d8{
+    position: absolute;
+    right: 10px;
+}
+
+.ai.bn.ar.bt.bc.bu.bv.bp{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+._style_2SSPGl {
+    -moz-box-sizing: border-box !important;
+    -webkit-flex-grow: 1 !important;
+    -webkit-transition: 0ms !important;
+    -ms-flex-positive: 1 !important;
+    background-color: #f1f1f1 !important;
+    border: none !important;
+    box-sizing: border-box !important;
+    color: #000000 !important;
+    flex-grow: 1 !important;
+    max-width: 100% !important;
+    font-size: 16px !important;
+    padding: 8px !important;
+    font-family: UberMove, "Helvetica Neue", Helvetica, sans-serif !important;
+    font-weight: 500 !important;
+    line-height: 24px !important;
+    outline: none !important;
+    text-align: none !important;
+    transition: 0ms !important;
+    margin-bottom: 0px !important
+}
+
+._style_2SSPGl:disabled {
+    color: #c6c6c6 !important;
+    cursor: default !important
+}
+
+._style_2SSPGl:focus {
+    background-color: #E6EBF9 !important;
+    border: 2px solid #000 !important;
+    color: #000000 !important;
+    padding: 6px !important
+}
+
+._style_2lrBUk {
+    -moz-box-sizing: border-box !important;
+    -webkit-flex-wrap: wrap !important;
+    -ms-flex-wrap: wrap !important;
+    -webkit-transition: all 400ms ease !important;
+    -webkit-box-lines: multiple !important;
+    background-color: #ffffff !important;
+    border-color: #e5e5e4 !important;
+    border-style: none !important;
+    border-width: 1px !important;
+    box-sizing: border-box !important;
+    height: 52px !important;
+    flex-wrap: wrap !important;
+    transition: all 400ms ease !important;
+    margin: 0 !important;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+    display: -webkit-box !important;
+    display: -moz-box !important;
+    display: -ms-flexbox !important;
+    display: -webkit-flex !important;
+    display: flex !important
+}
+
+._style_2lrBUk:hover {
+    border-color: #d6d6d5 !important
+}
+
+._style_1cBulK:last-child {
+    border: none !important
+}
